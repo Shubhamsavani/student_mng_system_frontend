@@ -5,6 +5,8 @@ export default function StudentList() {
   return (
     <div className="my-3">
         <Container>
+        <Card.Header><h3>Students List</h3></Card.Header>
+        <Card.Body>
         <Table striped bordered hover>
       <thead>
         <tr>
@@ -27,11 +29,11 @@ export default function StudentList() {
         <tr>
           <td>3</td>
           <td colSpan={2}>Larry the Bird</td>
-          <td>@twitter</td>
         </tr>
       </tbody>
     </Table>
+    </Card.Body>
         </Container>
     </div>
-  )
+  );
 }
